@@ -1,0 +1,23 @@
+html{font-size: 100px}
+header{width: 100%;height: 1.12rem;background: #2a2a2a;overflow: hidden;}
+.logo{float:left;width: 2.1rem;height: .64rem;margin: .23rem 0 0 .16rem;}
+.logo a{display: block;width: 100%;height: 100%;background: url(../images/logo.png) no-repeat;background-size: 100%}
+.menu{float: right;margin:.4rem .23rem 0 0}
+.menu .icon-menu{display: block;width: .36rem;height: .32rem;background: url(../images/menu.png) no-repeat; background-size: 100%}
+
+.swiper-slide img{width: 100%}
+
+.main{padding: 0 .2rem}
+.item{width: 100%;margin-top: .36rem;box-shadow: 0 .05rem .06rem 0 rgba(178, 178, 178, 0.75);border-radius: .05rem}
+.item img{display: block;width:100%;border-radius: .05rem .05rem 0 0}
+.item .txt{padding: .3rem;text-align: center;font-weight:400;line-height:.24rem;}
+.item .txt h2{font-size:.28rem;color: #777777;}
+.item .txt p{font-size:.28rem;margin-top: .24rem;color: #ED3A3A;}
+
+.foolhole{margin-top:.7rem }
+.foolhole{width: 100%;height: 1.07rem;color: #FFFFFF;;border: 1px solid #000000}
+.foolhole .box{margin-top: .17rem;width:33.33%;float:left;text-align: center;}
+.box .txt p{font-size:.16rem;color: rgba(171,171,171,1);}
+
+
+

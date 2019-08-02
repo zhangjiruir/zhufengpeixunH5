@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>珠峰培训H5</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+
+        <div class="menu">
+            <span class="icon-menu"></span>
+        </div>
+
+    </header>
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/lunbotu.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/lunbotu.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/lunbotu.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/lunbotu.png" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- 内容 -->
+    <main class="main">
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/lunbotu.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <h2>Vue.js从理论精讲到实战课程</h2>
+                <p>$5000</p>
+            </div>
+        </section>
+    </main>
+    <!-- 内容 -->
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript">
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 自动轮播
+            autoplay: {
+                display: 2000,
+                disableoninteraction: false
+                //自动轮播
+            }
+        })        
+    </script>
+    <!-- 底部 -->
+    <div class="foolhole">
+        <div class="box">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/personal center.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <p>首页</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/personal center.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <p>我的课程</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="pic">
+                    <img src="images/personal center.png" alt="">
+                </div>
+            </a>
+            <div class="txt">
+                <p>个人中心</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+</body>
+</html>
